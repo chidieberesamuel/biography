@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: sans-serif;
+  background: lightgray;
+}
+
+.Samuel-Picture{
+  width: 55px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  margin-top: 12px;
+
+}
+
+.Jason{
+  text-align: center;
+  font-size: 50px;
+  color: chocolate;
+  margin-top: 40px;
+}
+
+.Jason:hover{
+  cursor: pointer;
+  color: crimson;
+  font-size: 60px;
+}
+
+#Biography{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 29px;
+  background: snow;
+  padding: 30px 14px;
+  margin: 30px 22px;
+}
+
+.origin,
+.education,
+.Single{
+  background: rgb(214, 186, 175);
+  height: 230px;
+  width: 31%;
+  padding: 23px;
+  line-height: 1.4;
+}
+
+.origin,
+.education,
+.Single{
+  text-align: center;
+}
+
+.education{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.origin:hover,
+.education:hover,
+.Single:hover{
+  width: 33%;
+  height: 250px;
+  cursor: pointer;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.education:hover{
+  height: 280px;
+}
+
+.origin h2,
+.education h2,
+.Single h2{
+  color: blue;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.origin h2:hover,
+.education h2:hover,
+.Single h2:hover{
+  color: indigo;
+  font-size: 36px;
+}
+
+.education .jesus:hover{
+  color: crimson;
+  font-size: 18px;
+}
+
+footer{
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  color: goldenrod;
+}
+
+footer:hover{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+
